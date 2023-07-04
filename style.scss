@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cmp-quizApplication{
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    background-color: #0F459C;
+    padding: 20px;
+    &__heading{
+        margin: 20px auto 40px auto;
+        &--title{
+            font-size: 30px;
+            color: white;
+            text-align: center;
+            
+        }
+        &--subtitle{
+            font-size: 20px;
+            color: white;
+            text-align: center;
+
+        }
+    }
+
+    &__result{
+        min-width: 350px;
+        max-width: 400px;
+        margin: 10px auto;
+        border-radius: 5px;
+        text-align: center;        
+        background-color: white;
+        &--score{
+            padding: 10px 20px;
+        }
+        &--reload{
+            &--button{
+                background-color: #04AA6D;
+                border-radius: 0px 0px 5px 5px;
+                border: none;
+                color: white;
+                width: 100%;
+                padding: 10px 20px;
+            }
+            &--button:hover{
+                background-color: #058d5b;
+                cursor: pointer;
+            }
+        }    
+        
+    }
+
+    &__hide{
+        display: none;
+    }
+
+    &__quizForm{
+        max-width: 1000px;
+        margin: auto;
+        &--question{
+            padding: 20px 10px;
+            background-color: white;
+            margin: 20px 0px;
+            border-radius: 8px;
+            font-size: 18px;
+        }
+        &--correct{
+            background-color: rgb(202 234 202);
+        }
+        &--wrong{
+            background-color: rgb(224 177 177);
+        }        
+        &--option{
+            margin-left: 10px;
+        }
+        &--submit{
+            text-align: center;
+            margin: 30px auto;
+            &--button{
+                background-color: #04AA6D;
+                color: white;
+                border: none;
+                border-radius: 5px;
+                padding: 5px 25px;                                
+                font-size: 25px;                
+            }
+            &--button:hover{
+                background-color: #058d5b;
+                cursor: pointer;
+            }
+        }
+    }
+}
+// &--correct{
+//     background-color: rgb(198, 244, 198);
+// }
+// &--wrong{
+//     background-color: rgb(240, 158, 158);
+// }

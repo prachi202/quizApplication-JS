@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz-Application</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <section class="cmp-quizApplication">
+            <div class="cmp-quizApplication__heading">
+            <p class="cmp-quizApplication__heading--title">Quiz Application</p>
+            <p class="cmp-quizApplication__heading--subtitle">Daily quiz to test your knowledge</p>
+        </div> 
+        <div class="cmp-quizApplication__result cmp-quizApplication__hide">
+            <p class="cmp-quizApplication__result--score"></p>
+            <p class="cmp-quizApplication__result--reload">
+                <button onclick="document.location.reload(true)" class="cmp-quizApplication__result--reload--button">Try Again?</button>
+            </p>                    
+        </div>  
+        <form class="cmp-quizApplication__quizForm">
+            <div class="cmp-quizApplication__quizForm--question">
+            <p>1. Lorem ipsum dolor sit amet.</p>
+            <div class="cmp-quizApplication__quizForm--option">
+                <input type="radio" name="q1" id="" value="A">
+                <label for="">A</label>
+            </div>
+            <div class="cmp-quizApplication__quizForm--option">
+                <input type="radio" name="q1" id="" value="B">
+                <label for="">B</label>
+            </div>
+            <div class="cmp-quizApplication__quizForm--option">
+                <input type="radio" name="q1" id="" value="C">
+                <label for="">C</label>
+            </div>
+            <div class="cmp-quizApplication__quizForm--option">
+                <input type="radio" name="q1" id="" value="D">
+                <label for="">D</label>
+            </div>
+            </div>
+            <div class="cmp-quizApplication__quizForm--question">
+            <p>2. Lorem ipsum dolor sit amet.</p>
+            <div class="cmp-quizApplication__quizForm--option">
+                <input type="radio" name="q2" id="" value="A">
+                <label for="">A</label>
+            </div>
+            <div class="cmp-quizApplication__quizForm--option">
+                <input type="radio" name="q2" id="" value="B">
+                <label for="">B</label>
+            </div>
+            <div class="cmp-quizApplication__quizForm--option">
+                <input type="radio" name="q2" id="" value="C">
+                <label for="">C</label>
+            </div>
+            <div class="cmp-quizApplication__quizForm--option">
+                <input type="radio" name="q2" id="" value="D">
+                <label for="">D</label>
+            </div>
+            </div>
+            <div class="cmp-quizApplication__quizForm--submit">
+                <input class="cmp-quizApplication__quizForm--submit--button" type="submit" value="Submit">
+            </div>
+        </form>
+        </section> 
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
